@@ -1,0 +1,116 @@
+#loading {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: 300px;
+
+  overflow: none;
+  background-color: rgba(255,255,255,1);
+}
+.circle1,.circle2 {
+    background-color: rgba(0,0,0,0);
+    border:5px solid rgba(52,162,235,0.9);
+    opacity:.9;
+    border-right:5px solid rgba(0,0,0,0);
+    border-left:5px solid rgba(0,0,0,0);
+    margin:0 auto;
+}
+.circle1 {
+    border-radius:50px;
+    box-shadow: 0 0 25px #3498DB;
+    width:50px;
+    height:50px;
+    -moz-animation:spinPulse 1s infinite ease-in-out;
+    -webkit-animation:spinPulse 1s infinite linear;
+}
+.circle2 {
+    border-radius:40px;
+    box-shadow: 0 0 40px #3498DB;
+    width:40px;
+    height:40px;
+    position:relative;
+    top:-55px;
+    -moz-animation:spinoffPulse 1s infinite linear;
+    -webkit-animation:spinoffPulse 1s infinite linear;
+}
+
+@-moz-keyframes spinPulse {
+    0% { -webkit-transform:rotate(180deg); opacity:0; box-shadow:0 0 1px #3498DB; }
+    50% { -webkit-transform:rotate(135deg); opacity:1;}
+    100% { -webkit-transform:rotate(-360deg); opacity:0; }
+}
+@-moz-keyframes spinoffPulse {
+    0% { -moz-transform:rotate(0deg); }
+    100% { -moz-transform:rotate(360deg);  }
+}
+@-webkit-keyframes spinPulse {
+    0% { -webkit-transform:rotate(180deg); opacity:0; box-shadow:0 0 1px #3498DB; }
+    50% { -webkit-transform:rotate(135deg); opacity:1;}
+    100% { -webkit-transform:rotate(-360deg); opacity:0; }
+}
+@-webkit-keyframes spinoffPulse {
+    0% { -webkit-transform:rotate(0deg); }
+    100% { -webkit-transform:rotate(360deg); }
+}
+
+      html,body,table {
+        width: 100%;
+        height: 100%;
+        border: none;
+        padding: 0;
+        margin: 0;
+      }
+      td {
+        width: 25%;
+        height: 25%;
+      }
+      .a1 {
+        background-color: #16a085;
+      }
+      .a2 {
+        background-color: #27ae60;
+      }
+      .a3 {
+        background-color: #2980b9;
+      }
+      .a4 {
+        background-color: #8e44ad;
+      }
+      .a5 {
+        background-color: #2c3e50;
+      }
+      .a6 {
+        background-color: #f39c12;
+      }
+      .a7 {
+        background-color: #d35400;
+      }
+      .a8 {
+        background-color: #c0392b;
+      }
+      .a9 {
+        background-color: #bdc3c7;
+      }
+      .a10 {
+        background-color: #7f8c8d;
+      }
+      .a11 {
+        background-color: #2ecc71;
+      }
+      .a12 {
+        background-color: #9b59b6;
+      }
+      .a13 {
+        background-color: #f1c40f;
+      }
+      .a14 {
+        background-color: #00cc33;
+      }
+      .a15 {
+        background-color: #996633;
+      }
+      .a16 {
+        background-color: #ff33ff;
+      }
